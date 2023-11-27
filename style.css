@@ -1,0 +1,54 @@
+/*
+
+I have tried my best to explain sections of development with comments.
+I did not coment some self explanatory bits.
+Bits of code, not covered by The Odin Project up to this point of course, are labeled as ADVANCED. Altough my best efforts to keep it simple
+I have used some 'shortcuts', so to say that make development easier.
+
+*/ 
+
+
+
+/*ADVANCED*/
+/*Importing 'Roboto' font from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+
+/*ADVANCED*/
+/*Puting values, that I am going to use throughout code,into CSS variables*/
+:root{
+
+    /*Colors*/
+    --dark-background: #1f2937;
+    --shady-background: #e5e7eb;
+    --blue: #3882f6;
+    --white: #f9faf8;
+
+    /*Font sizes*/
+    --small: 18px;
+    --medium: 24px;
+    --large: 36px;
+    --x-large: 48px;
+
+    /*Font Wights - Levels  of bold*/
+    --light: 300;
+    --regular: 400;
+    --extra-bold: 900;
+
+}
+
+/*Overriding margin, padding and box-sizing of all elements to make production easier*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    /*ADVANCED*/
+    /*Setting root font size to 10px because I will be using rem (unit relative to root's font size) as my unit of choice*/
+    font-size: 10px;
+
+    font-family: 'Roboto', sans-serif;
+}
