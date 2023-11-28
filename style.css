@@ -151,3 +151,36 @@ button:hover{
     border-radius: 1rem;
 }
 
+/*MAIN SECTION*/
+.main{
+    background: var(--white);
+    padding: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h1{
+    font-size: var(--large);
+    font-weight: var(--extra-bold);
+    color: var(--dark-background);
+}
+.foods{
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5rem;
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.food img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 2rem;
+}
