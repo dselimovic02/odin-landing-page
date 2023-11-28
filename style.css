@@ -184,3 +184,63 @@ button:hover{
     height: 25rem;
     border-radius: 2rem;
 }
+
+/*QUOTE SECTION*/
+.quote{
+    width: 100%;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--shady-background);
+}
+.quote-text{
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    font-size: var(--large);
+}
+.quote-author{
+    align-self: flex-end;
+    text-decoration: underline;
+    margin-right: 20rem;
+}
+
+/* SIGN-UP SECTION */
+.sign-up{
+    width: 100%;
+    padding: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: var(--blue);
+    color: var(--white);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.card button{
+    background: var(--white);
+    color: var(--blue);
+}
+.card button:hover{
+    box-shadow: 0 0 3rem #1f293744;
+}
+
+/* FOOTER */
+
+.footer{
+    color: var(--white);
+    width: 100%;
+    background: var(--dark-background);
+    text-align: center;
+    padding: 2rem;
+}
